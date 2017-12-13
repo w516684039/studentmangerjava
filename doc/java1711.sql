@@ -1,0 +1,16 @@
+-- 列出数据库
+SHOW DATABASES;
+
+
+CREATE DATABASE test DEFAULT CHARACTER SET utf8;
+
+SHOW CREATE DATABASE tese;
+
+USE test;
+CREATE TABLE teacher(
+    NAME VARCHAR(10),
+    age INT
+);
+ALTER TABLE teacher ADD COLUMN address VARCHAR(50);
+
+
